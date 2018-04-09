@@ -1,6 +1,14 @@
 """
     TLC59116 Driver
-    Scott Baker, smbaker@smbaker.com
+    Scott Baker, http://www.smbaker.com/
+
+    This program includes a main() function and can be run from the command
+    line, for example:
+       python tlc59116.py led 0 pwm 128
+
+    It can also be included as a library. Just import the module, and create
+    a TLC59116 object. See the main() function for an example how that's
+    done.
 """
 
 import sys
